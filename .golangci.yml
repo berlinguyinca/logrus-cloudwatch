@@ -25,7 +25,7 @@ linters-settings:
     # put imports beginning with prefix after 3rd-party packages;
     # only support one prefix
     # if not set, use goimports.local-prefixes
-    local-prefixes: github.com/innix/logrus-cloudwatch
+    local-prefixes: github.com/berlinguyinca/logrus-cloudwatch
 
   goconst:
     # minimal length of string constant, 3 by default
@@ -54,7 +54,7 @@ linters-settings:
   goimports:
     # put imports beginning with prefix after 3rd-party packages;
     # it's a comma-separated list of prefixes
-    local-prefixes: github.com/innix/logrus-cloudwatch
+    local-prefixes: github.com/berlinguyinca/logrus-cloudwatch
 
   lll:
     # max line length, lines longer will be reported. Default is 120.
