@@ -7,7 +7,7 @@ A [logrus](https://github.com/sirupsen/logrus) hook for sending log events to [A
 ## Install
 
 ```bash
-go get github.com/innix/logrus-cloudwatch
+go get github.com/berlinguyinca/logrus-cloudwatch
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ import (
 
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs"
-	"github.com/innix/logrus-cloudwatch"
+	"github.com/berlinguyinca/logrus-cloudwatch"
 	log "github.com/sirupsen/logrus"
 )
 
